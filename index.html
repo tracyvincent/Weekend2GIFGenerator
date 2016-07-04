@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link href="stylesheet.css" rel="stylesheet" />
+    <script src="jquery-3.0.0.min.js"></script>
+    <script src="app.js"></script>
+  </head>
+
+  <body>
+    <button class="trending">Trending GIFs</button>
+    <p>or</p>
+
+    <form id="search">
+      <input type="text" name="tags" id="tags" />
+
+      <label for="gif">GIF</label>
+      <input type="radio" name="gifOrSticker" id="gif" checked="checked"/>
+
+      <Label for="sticker">Sticker</label>
+      <input type="radio" name="gifOrSticker" id="sticker" />
+
+      <p>Random? <label for="yes">Yes</label>
+      <input type="radio" name="random" id="yes" value="yes" checked="checked"/>
+
+      <Label for="no">No</label>
+      <input type="radio" name="random" id="no" value="no"/>
+
+      <input type="submit" value="Search"/></p>
+    </form>
+
+    <div class="container">
+    </div>
+
+  </body>
+</html>
